@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
     <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Azure App Service Lab</title>
+      <title>Cloud Deployment Lab</title>
       <style>
         body {
           font-family: Arial, sans-serif;
@@ -21,6 +21,7 @@ app.get("/", (req, res) => {
           padding-top: 100px;
           margin: 0;
         }
+
         .card {
           background: white;
           width: 70%;
@@ -30,9 +31,11 @@ app.get("/", (req, res) => {
           border-radius: 16px;
           box-shadow: 0 4px 20px rgba(0,0,0,0.12);
         }
+
         h1 {
           color: #1f4aa8;
         }
+
         p {
           font-size: 20px;
         }
@@ -40,10 +43,10 @@ app.get("/", (req, res) => {
     </head>
     <body>
       <div class="card">
-        <h1>Azure App Service CI/CD Lab</h1>
-        <p><strong>Ad Soyad:</strong> Berfin Çelik</p>
-        <p><strong>Öðrenci No:</strong> 2023XXXXXX</p>
-        <p>Bu uygulama GitHub Actions ile otomatik daðýtýlmaktadýr.</p>
+        <h1>Cloud Deployment CI/CD Lab</h1>
+        <p><strong>Ad Soyad:</strong> Berfin Celik</p>
+        <p><strong>Ogrenci No:</strong> 2023XXXXXX</p>
+        <p>Bu uygulama GitHub ile otomatik guncellenmektedir.</p>
       </div>
     </body>
     </html>
@@ -51,5 +54,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Uygulama ${PORT} portunda çalýþýyor.`);
+  console.log(`Uygulama ${PORT} portunda calisiyor.`);
 });
