@@ -45,7 +45,7 @@ app.get("/", (req, res) => {
       <div class="card">
         <h1>Cloud Deployment CI/CD Lab</h1>
         <p><strong>Ad Soyad:</strong> Berfin Celik</p>
-        <p><strong>Ogrenci No:</strong> 2023XXXXXX</p>
+        <p><strong>Ogrenci No:</strong> 231001023</p>
         <p>Bu uygulama GitHub ile otomatik guncellenmektedir.</p>
       </div>
     </body>
